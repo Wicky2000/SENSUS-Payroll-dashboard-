@@ -9,7 +9,7 @@ const App = () => {
       <aside className="sidebar">
       <div className="logo-container">
       
-      <img src="./assets/download.png" alt="Sensus Logo" className="logo" /> 
+      <img src={SensusLogo} alt="Sensus Logo" className="logo" /> 
         <h2>Sensus</h2>
         </div>
         <ul>
