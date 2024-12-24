@@ -10,14 +10,14 @@ body {
 
 .sidebar {
   width: 20%;
-  background-color: #2f3e46;
+  background-color: #474f53;
   color: white;
   padding: 20px;
 }
 
 .sidebar h2 {
   margin: 0;
-  padding-bottom: 20px;
+  padding-bottom: 7px;
 }
 
 .sidebar ul {
@@ -80,23 +80,33 @@ body {
 
 .logo {
   width: 40px;
-  height: 40px;
+  height: 35px;
   margin-right: 10px;
 }
 
 .header-icons {
-  display: flex;
+  display:flex;
   gap: 10px;
   padding: 10px 15px;
+  width: 100px;
+  height: 100px;
+  
 }
 
 .icon {
   font-size: 24px;
   color: #333;
   cursor: pointer;
-
+  
 }
 
 .icon:hover {
   color: #007bff;
 }
+
+.btn{
+  .btn:hover {
+  background-color: #0056b3;
+}
+}
+
