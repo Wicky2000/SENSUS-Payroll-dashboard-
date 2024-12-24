@@ -1,11 +1,17 @@
 import React from 'react';
 import './index.css';
+import { FaUserCircle, FaLanguage, FaBell } from 'react-icons/fa';
+import SensusLogo from './assets/download.png';
 
 const App = () => {
   return (
     <div className="dashboard">
       <aside className="sidebar">
+      <div className="logo-container">
+      
+      <img src="./assets/download.png" alt="Sensus Logo" className="logo" /> 
         <h2>Sensus</h2>
+        </div>
         <ul>
           <li>Dashboard</li>
           <li>Job Desk</li>
@@ -19,6 +25,11 @@ const App = () => {
       <main className="main-content">
         <header className="header">
           <h1>Dashboard</h1>
+          <div className="header-icons">
+            <FaLanguage className="icon" title="Language" />
+            <FaBell className="icon" title="Notifications" />
+            <FaUserCircle className="icon" title="Profile" />
+          </div>
           <div className="actions">
             <button className="btn">+ Buddy Punching</button>
             <button className="btn">Manager POV</button>
