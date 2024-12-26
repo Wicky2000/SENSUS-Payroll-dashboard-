@@ -27,6 +27,7 @@ const App = () => {
       <main className="main-content">
         <header className="header">
           <h1>Dashboard</h1>
+          <div class="header-right">
           <div className="header-icons">
             <FaLanguage className="icon" title="Language" />
             <FaBell className="icon" title="Notifications" />
@@ -35,6 +36,7 @@ const App = () => {
           <div className="actions">
             <button className="btn">+ Buddy Punching</button>
             <button className="btn">Manager POV</button>
+          </div>
           </div>
         </header>
         <section className="stats">

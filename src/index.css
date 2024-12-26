@@ -84,21 +84,39 @@ body {
   margin-right: 10px;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;  
+  padding: 20px;
+  background-color: white; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;  
+  align-items: flex-end;   
+  gap: 15px;              
+}
+
 .header-icons {
-  display:flex;
+  display: flex;
   gap: 10px;
-  padding: 10px 15px;
-  width: 100px;
-  height: 100px;
-  margin-left: auto;
-  
+  align-items: center;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
 }
 
 .icon {
   font-size: 24px;
   color: #333;
   cursor: pointer;
-  margin-right: auto;
+  padding: 5px;           
+  transition: color 0.3s; 
 }
 
 .icon:hover {
@@ -113,4 +131,8 @@ body {
 .btn:hover {
   background-color: #0056b3;
 }
+
+
+
+
 
