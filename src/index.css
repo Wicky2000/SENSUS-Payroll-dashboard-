@@ -90,6 +90,7 @@ body {
   padding: 10px 15px;
   width: 100px;
   height: 100px;
+  margin-left: auto;
   
 }
 
@@ -97,7 +98,7 @@ body {
   font-size: 24px;
   color: #333;
   cursor: pointer;
-  
+  margin-right: auto;
 }
 
 .icon:hover {
@@ -108,5 +109,8 @@ body {
   .btn:hover {
   background-color: #0056b3;
 }
+}
+.btn:hover {
+  background-color: #0056b3;
 }
 
