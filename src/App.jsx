@@ -11,7 +11,9 @@ const App = () => {
       
       <img src={SensusLogo} alt="Sensus Logo" className="logo" /> 
         <h2>Sensus</h2>
+        
         </div>
+        
         <ul>
           <li>Dashboard</li>
           <li>Job Desk</li>
