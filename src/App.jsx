@@ -9,8 +9,10 @@ const App = () => {
       <aside className="sidebar">
       <div className="logo-container">
       
-      <img src={SensusLogo} alt="Sensus Logo" className="logo" /> 
-        <h2>Sensus</h2>
+      <a href="https://sensushub.com/" target="_blank" rel="noopener noreferrer">
+    <img src={SensusLogo} alt="Sensus Logo" className="logo" />
+    <h2>Sensus</h2>
+      </a>
         
         </div>
         
