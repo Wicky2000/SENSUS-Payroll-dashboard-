@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './index.css';
 import { FaUserCircle, FaLanguage, FaBell } from 'react-icons/fa';
 import SensusLogo from './assets/download.png';
+import Profile from './Profile';
 
 
 const App = () => {
@@ -12,15 +13,23 @@ const App = () => {
   };
   return (
     <div className="dashboard">
-      <aside className="sidebar">
-      <div className="logo-container">
-      
-      <a href="https://sensushub.com/" target="_blank" rel="noopener noreferrer">
-    <img src={SensusLogo} alt="Sensus Logo" className="logo" />
-    <h2>Sensus</h2>
-      </a>
-        
+      <div className="top-header">
+        <div className="header-content">
+          <div className="logo-section">
+            <a href="https://sensushub.com/" target="_blank" rel="noopener noreferrer">
+              <img src={SensusLogo} alt="Sensus Logo" className="logo" />
+              <h2>Sensus</h2>
+            </a>
+          </div>
+          <div className="header-icons">
+            <FaLanguage className="icon" title="Language" />
+            <FaBell className="icon" title="Notifications" />
+            <Profile />
+          </div>
         </div>
+      </div>
+      <aside className="sidebar">
+      
         
         <ul>
           <li>Dashboard</li>
@@ -91,15 +100,11 @@ const App = () => {
         <header className="header">
           <h1>Dashboard</h1>
           <div class="header-right">
-          <div className="header-icons">
-            <FaLanguage className="icon" title="Language" />
-            <FaBell className="icon" title="Notifications" />
-            <FaUserCircle className="icon" title="Profile" />
-          </div>
-          <div className="actions">
-            <button className="btn">+ Buddy Punching</button>
-            <button className="btn">Manager POV</button>
-          </div>
+          
+          <div className="action-buttons">
+          <button className="btn">+ Buddy Punching</button>
+          <button className="btn">Manager POV</button>
+        </div>
           </div>
         </header>
         <section className="stats">
